@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwindcss cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body class="bg-[#F9FAFE]">
+
+    <div class="customer-info h-screen py-12 px-12 overflow-x">
+
+        <div class="w-[1181px] customer-history bg-white rounded-3xl pl-[75px]">
+
+            <div>
+                <div class="histore-title">
+                    <h1 class="text-[25px] text-[#162849] pt-[56px]">Customer History</h1>
+                </div>
+                <div class="flex gap-10 mt-[38px]">
+                    <div>
+                        <div class="name">
+                            <p class="text-[15px] text-[#162849]"><span class="text-[#ABB6E1] text-[15px] mr-5">Name :</span>Arif islam</p>
+                        </div>
+                        <div class="phone">
+                            <p class="text-[15px] text-[#162849]"><span class="text-[#ABB6E1] text-[15px] mr-5">Phone :</span>+89-5969-567</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="address">
+                            <p class="text-[15px] text-[#162849]"><span class="text-[#ABB6E1] text-[15px] mr-5">Address :</span>Mumbai, India</p>
+                        </div>
+                        <div class="mail">
+                            <p class="text-[15px] text-[#162849]"><span class="text-[#ABB6E1] text-[15px] mr-5">Email :</span>hiearif@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <h1 class="text-[#162849] text-[20px] my-8">Invoice History</h1>
+                <table class="table-fixed capitalize w-full">
+                    <thead class="text-sm text-[#ABB6E1] text-left">
+                        <tr class="align-middle">
+                            <th class="py-4 pr-5">invoice number</th>
+                            <th class="py-4 pr-5">po</th>
+                            <th class="py-4 pr-5">date</th>
+                            <th class="py-4 pr-5">certificate download</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="text-base text-[#162849]">
+                        <tr class="align-middle border-t-[1px] border-[#F1F1F1]">
+                            <td class="py-4 pr-5">mumbai,india</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                            <td class="py-4 pr-5">25-12-2023</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                        </tr>
+                        <tr class="align-middle border-t-[1px] border-[#F1F1F1]">
+                            <td class="py-4 pr-5">mumbai,india</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                            <td class="py-4 pr-5">25-12-2023</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                        </tr>
+                        <tr class="align-middle border-t-[1px] border-[#F1F1F1]">
+                            <td class="py-4 pr-5">mumbai,india</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                            <td class="py-4 pr-5">25-12-2023</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                        </tr>
+                        <tr class="align-middle border-t-[1px] border-b-[1px] border-[#F1F1F1]">
+                            <td class="py-4 pr-5">mumbai,india</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                            <td class="py-4 pr-5">25-12-2023</td>
+                            <td class="py-4 pr-5">$459.90</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
